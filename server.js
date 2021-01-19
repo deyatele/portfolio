@@ -6,6 +6,10 @@ const server = http.createServer(function (req, res) {
         const css = fs.readFileSync('css/style.css', 'utf-8');
         res.end(css);
     }
+    // if (req.url == '/img/*') {
+    //     const img = fs.readFileSync('img/*', 'utf-8');
+    //     res.end(img);
+    // }
     if (req.url == '/js/app.js') {
         // const css = fs.readFileSync('css/style.css', 'utf-8');
         const js = fs.readFileSync('js/app.js', 'utf-8');
