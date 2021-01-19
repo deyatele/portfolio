@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Site with portfolio Deyatele",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Deyatele",
+  "license": "ISC",
+  "dependencies": {}
+}
